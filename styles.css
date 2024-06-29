@@ -1,0 +1,173 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .card-body p {
+    margin-bottom:0;
+    }
+    .card-body p span {
+        color:black;
+        text-decoration: underline;
+    }
+    .card {
+        transition: all 0.7s;
+        background-color: rgb(133, 103, 23);
+    }
+    .card:hover {
+        background-color: seagreen;
+        box-shadow: 5px 5px 5px 10px red;
+    }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    padding: 20px 0;
+    color: #fff;
+  }
+  
+ 
+.sliding-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.sliding-nav li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.sliding-nav a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.sliding-nav a:hover {
+  background-color: #555;
+}
+
+/* Sliding effect */
+.sliding-nav.slide-up {
+  top: -50px;
+}
+
+.sliding-nav.slide-down {
+  top: 0;
+}
+
+a{
+    color:black;
+}
+body{
+    background-color: rgb(216, 180, 112);
+}                   
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    
+}
+h3{
+  font-style: italic;
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+.picture{
+  justify-items: center;
+  padding: 10px;
+  margin-left: 250px;
+  border: solid white 5px;
+  border-radius: 50%;
+}
+
+  /* Section Styles */
+  section {
+    margin: 40px 0;
+  }
+  
+  section h2 {
+    font-size: 24px;
+  }
+  
+  section p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  .project h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Contact Form Styles */
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Footer Styles */
+
+ .social {
+       border: none;
+       width: 10%;
+      padding: 10px;
+     display: inline-block;
+  }
+  .socials {
+    border: none;
+    width: 15%;
+   padding: 10px;
+   align-items: center;
+}
+
+  footer p {
+    margin: 0;
+    font-size: 25px; 
+    text-align: center;
+  }
+  .logos{
+    width: 50%;
+    justify-items: center;
+    padding: 10px;
+    margin-left: 250px;
+    border: solid white 5px;
+    border-radius: 50%;
+}
+.justify{
+  text-align: left;
+}
